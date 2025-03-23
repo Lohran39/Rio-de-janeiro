@@ -1,0 +1,68 @@
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    body {
+        background-position: center center; /* Ajusta a posição da imagem em dispositivos móveis */
+    }
+
+    main {
+        max-width: 90%; /* Ajusta a largura para telas menores */
+        margin: 15px;
+        padding: 15px; /* Ajusta o espaçamento interno */
+    }
+}
+
+body {
+    height: 100vh; /* Ocupa a altura inteira da tela */
+    background-color: black; /* Fundo preto como alternativa */
+    background-image: url('praia.jpg'); /* Imagem de fundo */
+    background-position: center top; /* Centraliza a imagem no topo */
+    background-size: cover; /* Faz a imagem cobrir todo o espaço */
+    background-attachment: fixed; /* Fixação para efeito de parallax */
+    font-family: Arial, sans-serif; /* Fonte principal */
+    color: #242222; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    display: block; /* Alinhamento padrão */
+}
+
+/* Cabeçalho */
+header.site-header {
+    background-color: rgba(255, 228, 181, 0.9); /* Fundo semitransparente (wheat) */
+    color: rgb(33, 31, 30); /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 5px 2px; /* Espaçamento interno */
+    border-bottom: 2px solid rgb(33, 31, 30); /* Adiciona borda decorativa */
+    font-size: 1.5em; /* Aumenta o tamanho do texto */
+    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao cabeçalho */
+}
+
+/* Conteúdo principal */
+main.site-main {
+    background-color: rgba(240, 248, 255, 0.9); /* Fundo semitransparente (aliceblue) */
+    max-width: 600px; /* Largura máxima do texto */
+    padding: 20px; /* Espaçamento interno */
+    margin: 30px auto; /* Centraliza horizontalmente */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Adiciona sombra suave */
+    line-height: 1.8; /* Espaçamento entre linhas */
+    text-align: justify; /* Justifica o texto para legibilidade */
+}
+
+/* Rodapé */
+footer.site-footer {
+    background-color: transparent; /* Fundo semitransparente (wheat) */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 1px; /* Espaçamento interno */
+    font-size: 0.9em; /* Reduz um pouco o tamanho da fonte */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
+
+footer.Criado-por {
+    background-color: rgba(255, 228, 181, 0.9);
+    color:black;
+    text-align: center;
+    padding: 6px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Adiciona sombra */
+}
